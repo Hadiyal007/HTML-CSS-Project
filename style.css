@@ -10,13 +10,15 @@ body {
     padding: 0;
     background-image: url(Background.webp);
     background-size: cover;
+    
     background-position: center;
     color: #0e0d0d;
+    width: 100%;
 }
 header {
     background: rgba(26, 169, 26, 0.8);
     color: white;
-    padding: 15px 20px;
+    padding: 10px 10px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -34,9 +36,71 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
+.imge{
+    margin-top: 5px;
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+.imge img{
+    width:90%;
+}
+
+img:hover{
+    
+    transform: scale(0.9);  
+}
+.name{
+    padding: 0;
+    
+    margin-top: 0;
+    display: flex;
+   
+}
+.name div{
+    width: 33%;
+    padding: 0;
+    margin: 10px 10px 10px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(156, 5, 30);
+    background-size: 0px;
+    background-color: aliceblue;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 70px 20px;
+}
+#about
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#about h2{
+   display: block;
+   align-items: center;
+   justify-content: center;
+    width: 20%;
+    border-radius: 25px;
+    padding: 0;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(156, 5, 30);
+    background-size: 0px;
+    background-color: aliceblue;
+    
+   
+   
+
 }
 .btn {
     display: inline-block;
